@@ -1,1 +1,1 @@
-let EXPORTABLE_LIGHTGALLERY_JS_OBJECT;
+let window={};

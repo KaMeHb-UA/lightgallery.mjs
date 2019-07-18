@@ -1,1 +1,1 @@
-EXPORTABLE_LIGHTGALLERY_JS_OBJECT = require('lightgallery.js')
+require('lightgallery.js')

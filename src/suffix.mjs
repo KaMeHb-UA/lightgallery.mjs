@@ -1,1 +1,1 @@
-export default EXPORTABLE_LIGHTGALLERY_JS_OBJECT
+export default window.lightGallery

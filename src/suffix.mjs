@@ -1,1 +1,1 @@
-export default window.lightGallery
+export default module.exports

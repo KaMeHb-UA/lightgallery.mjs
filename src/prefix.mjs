@@ -1,1 +1,1 @@
-let window={};
+const module={exports:{}};

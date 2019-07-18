@@ -1,0 +1,10 @@
+{
+    "scripts": {
+        "build": "webpack && ./build.js"
+    },
+    "devDependencies": {
+        "lightgallery.js": "1.1.3",
+        "webpack": "^4.36.1",
+        "webpack-cli": "^3.3.6"
+    }
+}

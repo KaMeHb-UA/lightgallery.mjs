@@ -1,1 +1,1 @@
-let lightGallery,lgData,lgModules;
+let lightGallery,lgData,lgModules,s=document.createElement('link');s.setAttribute('rel','stylesheet');s.setAttribute('href','https://cdn.jsdelivr.net/npm/lightgallery.js@1.1.3/dist/css/lightgallery.min.css');document.head.appendChild(s);

@@ -1,1 +1,1 @@
-const {lgData,lgModules,lightGallery}=s;export default lightGallery;export{lgData,lgModules}
+export default lightGallery;export{lgData,lgModules}

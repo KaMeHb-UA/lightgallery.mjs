@@ -16,5 +16,5 @@ function write(filename, data){
 
 (async () => {
     const [ prefix, main, suffix ] = await Promise.all([read(PREFIX_FILE), read(MAIN_FILE), read(SUFFIX_FILE)]);
-    await write(DIST_FILE, prefix + main + suffix)
+    await write(DIST_FILE, prefix + main.replace(/window\.lightGallery/g, 'lightGallery').replace(/window\.lgData/g, 'lgData').replace(/window\.lgModules/g, 'lgModules') + suffix)
 })()
